@@ -75,7 +75,30 @@ user2.newname = "bsdk"
 // console.log(obj2.newname);
 
 
+let details = String ("Muhammad Umar")
+// console.log(details.toUpperCase());
 
+
+// console.log(details.charAt(6));
+
+// console.log(details.indexOf("M"));
+
+
+//node Basics/05_datatypesummary.js
     
+
+//****************Strings***************** */
+
+let yourname = "            Muhammad"
+
+console.log(yourname.slice(3)); // Make a slice of String
+
+console.log(yourname.trim()); //Remove White Spaces
+
+console.log(yourname.includes("z")); //to check it includes or not 
+
+
+
+
 
 
