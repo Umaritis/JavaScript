@@ -26,8 +26,56 @@ let myobj = {
 }
 
 
-console.log(typeof myobj);
+// console.log(typeof myobj);
 
 
 // Every Datatype has some types 
+
+//Two types of Memory 
+
+
+// Stack Heap
+
+
+
+//Stack(Premitive Datatypes are use stack)
+
+//When we update a veriale it will just update the value of the 2nd variable not the 
+//first variable. Because it works on stack
+
+
+
+let myName = "Muhammad Umar"
+
+let myEmail = "umar@google.com"
+
+
+let anotherName = myName
+
+anotherName = "Aqsa Rana" 
+
+// console.log(myName);
+// console.log(anotherName);
+
+
+//But when we use Heap it will create a Refrence to the main value like doesnt give th
+// copy of the variable it give the refrence of the new variable
+
+
+let obj2 = {
+    newname : "Muhammad",
+    mynewmail : "umar@gmail.com",
+    
+}
+
+let user2= obj2
+
+user2.newname = "bsdk"
+
+// console.log(obj2.newname);
+
+
+
+    
+
 
