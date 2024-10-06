@@ -1,0 +1,13 @@
+//sometimes we have to specify the data types for getting the specific vlaue in output 
+// like the follwoing 
+
+let value = new Number(10);
+console.log(value);
+// console.log(value.toString());
+
+console.log(typeof value);
+
+
+
+
+
