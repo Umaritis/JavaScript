@@ -26,9 +26,30 @@ let myCreatedDate = new Date ("2024, 09, 20")
 
 let myTimeStamp = new Date()
 
-console.log(myTimeStamp.toLocaleString());
+// console.log(myTimeStamp.toLocaleString());
 
-con
+// console.log(myCreatedDate.getTime());
+
+// console.log(Math.floor(Date.now()/1000));
+
+
+let myNewDate = new Date()
+
+console.log(myNewDate.getMonth()+1); 
+
+console.log(myNewDate.getDay()+1);
+
+console.log(myNewDate.getTime());
+
+
+myNewDate.toLocaleString('default', {
+    weekday : "long"
+})
+
+console.log(myNewDate.weekday());
+
+
+
 
 
 
