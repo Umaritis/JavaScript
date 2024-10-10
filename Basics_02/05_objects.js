@@ -10,3 +10,11 @@ const {name : n }= course;
 console.log(n);
 
 console.log(instructor);
+
+//JavaScript Object Notation JSON
+
+// {
+//     {},
+//     {},
+//     {},
+// }
