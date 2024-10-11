@@ -16,7 +16,7 @@ function userLoggedIn (username){
     return `${username} just Logged IN`
 }
 
-console.log(userLoggedIn("Umar"))
+// console.log(userLoggedIn("Umar"))
 
 
 function caluculateNumber(val1, val2, ...num1){
@@ -34,5 +34,19 @@ function objecthandler (anyobject){
     console.log(`Username is ${anyobject.name} and Price is ${anyobject.price}`);   
 }
 
-objecthandler(userdetails);
+// objecthandler(userdetails);
+
+// objecthandler({   //this is the way to pass the object directly 
+//     name:"Muhammad Umar",
+//     price:"99"
+// })
+
+
+const myArray = [100,200,300,400]
+function secondValue (getarray) {
+    return getarray[1]
+}
+
+// console.log (secondValue(myArray))
+// console.log (secondValue([100,300,4000]))
 
