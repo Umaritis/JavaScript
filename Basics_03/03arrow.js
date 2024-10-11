@@ -32,7 +32,40 @@ function chai (){
 
 const chaiorcode = () =>{
     let username = "Muhammad "
-    console.log(this.username)
+    // console.log(this.username)
 }
 
-chaiorcode()  //It will still give the same result undefined
+// chaiorcode()  //It will still give the same result undefined
+
+
+
+
+//******************************Arrow Funcation   Explicit Function*********************************** */
+
+
+
+const twonum = (num1, num2 )=> {
+    return num1 + num2
+}
+console.log(twonum(2, 2));
+
+
+
+//Another Arrow Funcation which is also called implicit funcation where we return value without using return keyword
+
+
+// const threenum = (num1, num2, num3) => num1 + num2 + num3  //Implicit Function 
+
+// console.log(threenum(3,3,3));
+
+
+
+//***********************************Another way to define Function************************************ */
+
+
+const threenum = (num1, num2, num3) => (num1 + num2 + num3)
+
+// console.log(threenum(2,2,2));
+
+
+
