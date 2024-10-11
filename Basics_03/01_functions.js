@@ -17,3 +17,22 @@ function userLoggedIn (username){
 }
 
 console.log(userLoggedIn("Umar"))
+
+
+function caluculateNumber(val1, val2, ...num1){
+    return num1
+}
+
+// console.log(caluculateNumber(100,200,300,400))
+
+const userdetails = {
+    name : "Muhammad Umar",
+    price: "999",
+}
+
+function objecthandler (anyobject){
+    console.log(`Username is ${anyobject.name} and Price is ${anyobject.price}`);   
+}
+
+objecthandler(userdetails);
+
