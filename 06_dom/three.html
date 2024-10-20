@@ -6,9 +6,9 @@
     <title>Chai or Code</title>
 </head>
 <body style="background-color: #212121 color = white;">
-    <div class="language">
-        <ul>
-            <li>JavaScript</li>
+    <div>
+        <ul class="language">
+            <li >JavaScript</li>
         </ul>
     </div>
 </body>
@@ -25,7 +25,35 @@
         document.querySelector(".language").appendChild(li)
         
     }
-    addoptilang("java")
+    addoptilang("Python")
+    addoptilang("Golanf")
+    addoptilang("TypeScript")
+    addoptilang("Java")
+
+    //edit 
+    const thirdlang = document.querySelector("li:nth-child(3)")
+    const newli = document.createElement('li')
+    newli.textContent = "MOJO"
+    thirdlang.replaceWith(newli)
+
+
+    //edit
+
+    const firstli = document.querySelector("li:first-child")
+    console.log(firstli);
+    const newn = document.createElement('li')
+    newn.textContent="TypeScript"
+    firstli.replaceWith(newn)
+    
+    //remove
+
+    const anyone = document.querySelector("li:nth-child(4)")
+    anyone.remove()
+    
+    
+
+
+
 </script>
 
 </html>
