@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "Main"
+    div.id = "id1"
+    div.setAttribute("title", "This is the title")
+    div.style.backgroundColor = "green"
+    // div.innerHTML = "This is the inner HTML"
+    const newone = document.createTextNode ("Chai aur Code")
+    div.appendChild(newone)
+    document.body.appendChild (div)
+</script>
+</html>
